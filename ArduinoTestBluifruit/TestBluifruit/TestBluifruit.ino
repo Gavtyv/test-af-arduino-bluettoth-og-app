@@ -139,5 +139,6 @@ void loop(void)
     int c = ble.read();
     Serial.print((char)c);
   }
+  
   delay(1000);
 }
